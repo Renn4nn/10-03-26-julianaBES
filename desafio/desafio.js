@@ -80,3 +80,6 @@ const pessoa = {
 };
 
 pessoa.falar();
+// 1 - cria um objeto e depois executa o atributo falar que é uma função    
+// 2 - Arrow functions não possuem seu próprio this. Elas herdam o this do escopo onde foram criadas.7
+// 3 - O this é capturado do escopo onde a função foi definida, não de quem a chama.
